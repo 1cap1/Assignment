@@ -1,0 +1,60 @@
+Draw.io in jira is a user-friendly and secure diagram generation tool. The uses of draw.io include allowing users to create their own templates and customize organizational charts, BPMN, UML, ER diagrams, wireframes, mockups, network diagrams, and flowcharts.
+
+1. Define Project Phases
+   - Problem Definition: Identify the problem and define objectives.
+   - Data Collection & Preparation: Gather and preprocess data.
+   - Model Selection: Choose appropriate algorithms and models.
+   - Model Training: Train the model on the prepared dataset.
+   - Model Evaluation: Evaluate the model's performance.
+   - Deployment: Deploy the model in a production environment.
+   - Monitoring & Maintenance: Continuously monitor and maintain the model.
+
+2. Map Out the Workflow in draw.io
+   - Start with Problem Definition
+     - Use an oval shape to represent the start of the process.
+   - Data Collection & Preparation
+     - Use a rectangle to represent this step.
+     - Include subprocesses like data gathering, cleaning, and transformation.
+   - Model Selection
+     - Use another rectangle to represent the model selection process.
+     - Include decisions like algorithm choice.
+   - Model Training
+     - Represent this with a rectangle.
+     - Detail the training process, including hyperparameter tuning.
+   - Model Evaluation
+     - Use a diamond shape to represent decision points, like whether the model's performance is satisfactory.
+   - Deployment
+     - Represent the deployment phase with a rectangle.
+     - Include steps like model integration into the system.
+   - Monitoring & Maintenance
+     - Use a rectangle for ongoing monitoring, logging, and model retraining.
+
+3. Add Connectors
+   - Use arrows to connect each step logically, indicating the flow from one phase to the next.
+
+4. Add Additional Elements
+   - Annotations: Add notes to explain each phase if needed.
+   - Decision Points: Use diamond shapes for decision-making steps.
+   - Parallel Processes: Use parallel processing where different tasks can be performed simultaneously.
+
+5. Export the Diagram
+   - Once the workflow is complete, export the diagram as an image or PDF.
+
+Visual Example:
+1. Start
+2. Data Collection & Preparation
+   - Data Collection
+   - Data Cleaning
+   - Feature Engineering
+3. Model Selection
+   - Algorithm Selection
+4. Model Training
+   - Train Model
+   - Hyperparameter Tuning
+5. Model Evaluation
+   - Evaluate Model
+   - (Decision: If Satisfactory → Continue, Else → Retrain)
+6. Deployment
+   - Deploy Model
+7. Monitoring & Maintenance
+   - Monitor Performance
