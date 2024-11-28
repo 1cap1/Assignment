@@ -1,0 +1,78 @@
+1.Explore the Libraries TensorFlow/Keras, DEAP, NumPy, pandas ,PyTorch, Scikit-Learn and     Matplotlib. 
+
+TensorFlow:open-source machine learning framework developed by the Google . It's widely used for building and training machine learning models, particularly deep learning models. 
+Keras :open-source high-level neural networks API, written in Python and capable of running on top of TensorFlow.
+TensorFlow 2.0, Keras is included as tf.keras, (Application Programming Interface- allows software applications to communicate with each other)
+ DEAP is a powerful tool for solving a wide range of optimization and search problems across various domains.
+
+Working with Numpy arrays 
+Imp: arrays, element-wise operations, linear algebra, statistical operations 
+ALGORITHM:
+ Step1: Start 
+Step2: Import numpy module 
+Step3: Print the basic characteristics and operactions of array 
+Step4: Stop PROGRAM
+importnumpy as np # numpy-library,np-var
+arr = np.array( [[ 1, 2, 3], [ 4, 2, 5]] ) 
+print("No. of dimensions: ", arr.ndim)
+
+Pandas:structured data( tabular data) in the form of data frames.
+IMP: DataFrame: 2D labeled data structure with column.
+Data Manipulation:Indexing& Selection: Efficiently access and manipulate data using labels and boolean indexing.
+ Example:
+import pandas as pd
+data = { 
+    'Name': ['Alice', 'Bob', 'Charlie'], 
+    'Age': [25, 30, 35], 
+    'City': ['New York', 'Los Angeles', 'Chicago'] 
+} 
+df = pd.DataFrame(data)
+print(df)
+
+Matplotlib: graphs
+ALGORITHM 
+Step1: Start 
+Step2: import Matplotlib module 
+Step3: Create a Basic plots using Matplotlib
+Step4: Print the output 
+Step5: Stop 
+Ex:
+importmatplotlib.pyplot as plt
+x = [1,2,3] 
+y = [2,4,1] 
+plt.plot(x, y
+plt.xlabel('x - axis') 
+# naming the y axis 
+plt.ylabel('y - axis') 
+plt.title('My first graph!') 
+plt.show()
+
+PyTorch is specialized for deep learning and provides more 
+flexibility with dynamic computation graphs and GPU-graphical processing unit support.
+Scikit-Learn is focused on classical machine learning methods
+and is designed for ease of use in preprocessing, modeling, and evaluation. 
+
+# Import the PyTorch Library:
+import torch
+# Check if GPU is available
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#torch.cuda.is_available():  checks if CUDA (which allows GPU acceleration) is available on your system.
+#Compute Unified Device Architecture) is a parallel computing platform
+ # Create a tensor and move it to the GPU
+x = torch.tensor([1.0, 2.0, 3.0], device=device)
+y = torch.tensor([4.0, 5.0, 6.0], device=device)
+ # Perform a simple operation
+z = x + y
+ # Print the result
+print("Result on GPU:", z)
+Sklearn/Scikit-Learn Library
+It rovides a way to reduce data's dimensionality and tools for preprocessing data. Sklearn also features built-in cross-validation and scoring methods. 
+Ex: from sklearn.linear_model
+importLinearRegression
+# Create linear regression model
+model = LinearRegression()
+# Train the model using the training data
+model.fit(X_train, y_train)
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+print(y_pred)
